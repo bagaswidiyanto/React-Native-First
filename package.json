@@ -1,5 +1,5 @@
 {
-  "name": "AplikasiPertama",
+  "name": "aplikasipertama",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,11 +7,15 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-transformer": "^0.14.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -25,5 +29,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagaswidiyanto/React-Native-First.git"
+  },
+  "author": "Bagas Widiyanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagaswidiyanto/React-Native-First/issues"
+  },
+  "homepage": "https://github.com/bagaswidiyanto/React-Native-First#readme",
+  "description": ""
 }
